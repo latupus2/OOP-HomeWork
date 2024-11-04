@@ -11,10 +11,11 @@ set(SOURCE_FILES main.cpp Time.cpp)
 add_executable(time ${SOURCE_FILES})
 
 if(ENABLE_TESTS)
-    set(GTEST_DIR_LIB "${CMAKE_SOURCE_DIR}/googletest/build/lib/Debug")
-    set(GTEST_DIR_INCLUDE "${CMAKE_SOURCE_DIR}/googletest/googletest/include")
+    set(GTEST_DIR_LIB "${CMAKE_SOURCE_DIR}/googletests/lib")
+    set(GTEST_DIR_INCLUDE "${CMAKE_SOURCE_DIR}/googletests/include")
 
     include_directories(${GTEST_DIR_INCLUDE})
+    include_directories(${CMAKE_SOURCE_DIR})
     link_directories(${GTEST_DIR_LIB})
 
     set(TEST_SOURCES tests/test_time.cpp)
