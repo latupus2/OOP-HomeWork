@@ -1,0 +1,4 @@
+F:/VScode/NSU/OOP/sem5/build/CMakeFiles/time.dir
+F:/VScode/NSU/OOP/sem5/build/CMakeFiles/TimeTests.dir
+F:/VScode/NSU/OOP/sem5/build/CMakeFiles/ALL_BUILD.dir
+F:/VScode/NSU/OOP/sem5/build/CMakeFiles/ZERO_CHECK.dir

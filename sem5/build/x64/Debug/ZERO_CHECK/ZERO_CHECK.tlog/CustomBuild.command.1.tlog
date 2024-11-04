@@ -1,0 +1,10 @@
+^F:\VSCODE\NSU\OOP\SEM5\BUILD\CMAKEFILES\48A745AC621AAFF796BF86D5C75A8374\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SF:/VScode/NSU/OOP/sem5 -BF:/VScode/NSU/OOP/sem5/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file F:/VScode/NSU/OOP/sem5/build/time.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
